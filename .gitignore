@@ -1,0 +1,197 @@
+# ----------------------------------------
+# Go
+# ----------------------------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+go.work
+go.work.sum
+
+# ----------------------------------------
+# Swift / Xcode (macOS, iOS)
+# ----------------------------------------
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+build/
+.build/
+.swiftpm/
+Packages/
+*.dSYM
+*.dSYM.zip
+*.ipa
+*.app
+*.appex
+*.hmap
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+playground.xcworkspace
+timeline.xctimeline
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ----------------------------------------
+# CocoaPods
+# ----------------------------------------
+Pods/
+Podfile.lock
+
+# ----------------------------------------
+# Carthage
+# ----------------------------------------
+Carthage/Build/
+
+# ----------------------------------------
+# .NET / C# (Windows)
+# ----------------------------------------
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.rsuser
+*.nupkg
+*.snupkg
+*.pdb
+*.mdb
+*.opendb
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+.vs/
+.vscode/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+publish/
+PublishProfiles/
+TestResults/
+[Tt]est[Rr]esult*/
+BenchmarkDotNet.Artifacts/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+!packages/build/
+*.nuspec.user
+*.nuget.props
+*.nuget.targets
+msbuild.log
+msbuild.err
+msbuild.wrn
+.vsconfig
+
+# ----------------------------------------
+# Android / Gradle / Kotlin / Java
+# ----------------------------------------
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.iml
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+lint/reports/
+.idea/
+.kotlin/
+*.hprof
+android.tests/
+*.jks
+*.keystore
+!debug.keystore
+
+# ----------------------------------------
+# macOS
+# ----------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+Icon?
+
+# ----------------------------------------
+# Windows
+# ----------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# ----------------------------------------
+# Linux
+# ----------------------------------------
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ----------------------------------------
+# Editors & IDEs
+# ----------------------------------------
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.history/
+
+# ----------------------------------------
+# Environment & Secrets
+# ----------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+!secrets.example.*
+
+# ----------------------------------------
+# Logs & Temp
+# ----------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ----------------------------------------
+# Archives
+# ----------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+!*.gradle-wrapper.jar
